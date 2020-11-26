@@ -12,7 +12,7 @@ env:
   MAKEJOBS: "-j4"
   DANGER_RUN_CI_ON_HOST: "1"  # Containers will be discarded after the run, so there is no risk that the ci scripts modify the system
   TEST_RUNNER_PORT_MIN: "14000"  # Must be larger than 12321, which is used for the http cache. See https://cirrus-ci.org/guide/writing-tasks/#http-cache
-  CCACHE_SIZE: "200M"
+  CCACHE_SIZE: "201M"
   CCACHE_DIR: "/tmp/ccache_dir"
 
 ### Global task template
